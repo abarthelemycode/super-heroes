@@ -1,18 +1,25 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-container>
+    <v-tabs optional >
+      <v-tab to="/home/marvel">Marvel Comics</v-tab>
+      <v-tab to="/home/dc" >DC Comics</v-tab>
+      <v-tab v-if="isFavoriteHeroes" to="/home/favorites">
+        {{ $t('sentences.my-favorites') | capitalize }}
+      </v-tab>
+    </v-tabs>
+
+    <router-view />
+  </v-container>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue';
-
 export default {
-  name: 'home',
-  components: {
-    HelloWorld,
+  computed: {
+    isFavoriteHeroes() {
+      return this.$store.getters['heroModule/isFavoriteHeroes'];
+    },
   },
 };
+
+
 </script>

@@ -1,0 +1,32 @@
+{
+  "adjective": {
+      "lang": "english"
+  },
+  "adverb":{
+      "about":"about"
+  },
+  "verb": {
+      "cancel": "cancel",
+      "validate": "validate",
+      "edit": "edit",
+      "delete": "delete"
+  },
+  "name": {
+      "favorites":"favorites",
+      "name-hero":"hero's name",
+      "alter-ego":"alter ego",
+      "publisher":"publisher",
+      "first-appearance":"first appearance",
+      "characters":"characters"
+  },
+  "sentences": {
+      "page-not-found": "page not found",
+      "add-hero": "add hero",
+      "edit-hero": "edit hero",
+      "search-hero-by-name": "search hero by name",
+      "hero-list": "Hero list",
+      "my-favorites":"my favorites",
+      "add-to-favorites":"add to favorites",
+      "remove-from-favorites":"remove from favorites"
+  }
+}

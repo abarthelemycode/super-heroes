@@ -1,0 +1,32 @@
+{
+    "adjective": {
+        "lang": "français"
+    },
+    "adverb":{
+        "about":"à propos"
+    },
+    "verb": {
+        "cancel": "annuler",
+        "validate": "valider",
+        "edit": "modifier",
+        "delete": "supprimer"
+    },
+    "name": {
+        "favorites":"favorites",
+        "name-hero":"nom du héros",
+        "alter-ego":"alter ego",
+        "publisher":"éditeur",
+        "first-appearance":"première apparition",
+        "characters":"personnages"
+    },
+    "sentences": {
+        "page-not-found": "page non trouvé",
+        "add-hero": "ajouter un héros",
+        "edit-hero": "modifier un héros",
+        "my-favorites":"mes favoris",
+        "hero-list": "Liste des héros",
+        "search-hero-by-name": "rechercher un héros par nom",
+        "add-to-favorites":"ajouter aux favoris",
+        "remove-from-favorites":"enlever des favoris"
+    }
+}
